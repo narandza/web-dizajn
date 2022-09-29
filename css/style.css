@@ -1,0 +1,410 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #edf0f1;
+}
+.cistac{
+    clear:both;
+}
+
+header {
+ position:sticky;
+ top:0px;
+ z-index: 2;
+ width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  height: 100px;
+  background-color:#1a1a1a;
+
+}
+
+.logo {
+  cursor: pointer;
+  width:150px;
+  height:150px;
+  margin-top: 100px;
+}
+#pretrazivac{
+    color:#edf0f1;
+    margin-top: 60px;
+    
+}
+#search{
+    width:250px;
+    border-radius: 15px;
+}
+#pretrazivac a:hover{
+    color: #FF8C00;
+    transition:0.3s
+}
+nav{
+    margin-top: 50px;
+}
+
+#bars{
+    visibility: hidden;
+}
+.linkovi {
+  list-style: none;
+  display: flex;
+}
+
+.linkovi li {
+  padding: 0px 20px;
+}
+
+.linkovi li a {
+  transition: 0.3s;
+}
+
+.linkovi a:hover {
+  color:#FF8C00;
+  ;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1a1a1a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding:30px 5%;
+}
+#futerLevo{
+    color:#edf0f1;
+    text-align: center;
+    font-size: 14px;
+
+}
+#futerSredina{
+    width:33%;
+    text-align: center;
+    font-size: 20px;
+}
+#futerSredina{
+    color:#edf0f1;
+}
+
+
+#futerDesno{
+    text-align: center;
+    font-size: 20px;
+}
+#futerDesno a{
+    transition: 0.3s;
+    color:#FF8C00;
+}
+#futerDesno a:hover{
+    color:#edf0f1
+}
+/*index*/
+main{
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+}
+#slajder{
+    position: relative;
+	background-image:url(../img/bgimg.jpg);
+	width:100%;
+	height:600px;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#slajder h1{
+    position: absolute;
+    top:60px;
+    width:50%;
+	font-size:60px;
+	text-align:center;
+	color:#FF8C00;
+	
+}
+
+.naslov2 {
+	text-align:center;
+	margin:80px auto;
+	color:#1a1a1a;
+	font-size:30px;
+}
+
+.proizvod{
+    margin-left: 55px;
+    float:left;
+    width:20%;
+}
+.proizvod img{
+	width:200px;
+	height:150px;
+}
+.proizvod p {
+	text-align:left;
+	color:#1a1a1a;
+	font-size:17px;
+}
+.cena p{
+	font-size:25px;
+	text-align:left;
+	color:#FF0000;
+}
+.dugme{
+    width:120px;
+    margin:60px auto;
+    border: 1px solid #FF8C00;
+    background: none;
+    padding:10px 20px;
+    text-align: center;
+    font-size:16px;
+    cursor: pointer;
+    transition:0.6s;
+    border-radius:15px;
+    
+}
+.dugme a{
+    color:#FF8C00
+}
+.dugme:hover {
+	background-color:#FF8C00;
+}
+.dugme:hover a {
+    color:#edf0f1;
+}
+#odeca{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.odc {
+    width:40%;	
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.odc img{
+	width:625px;
+	height:626px;
+}
+.odc .kolekcija {
+	text-align:center;
+	color:#FF8C00;
+	font-size:44px;
+}
+.imgodc{
+    position: relative;
+}
+.tekst p{
+	position:absolute;
+	top:300px;
+	left:300px;	
+}
+.odc img:hover{
+	opacity: 0.3;
+}
+/*prodavnica*/
+#filter{
+    width: 100%;
+    height: 70px;
+    padding-top:15px;
+    padding-left: 400px;
+    background-color:#FF8C00;  
+}
+.dropdown{
+    width:10%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    color:#edf0f1;
+    font-size: 16px;
+}
+#prodavnica{
+    margin-top:35px;
+    width: 100%;
+}
+#porudzbina{
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top:80px;
+    margin-bottom: 90px;
+}
+#porudzbinaNaslov h2{
+    width:100%;
+    text-align: center;
+}
+#porudzbinaNaslov p{
+    width:100%;
+    text-align: center;
+}
+#tabela{
+    width:190px;
+    height:300px;
+    padding:10px;
+    background-color: #FF8C00;
+    border:1px solid #1a1a1a;
+    color:#1a1a1a;
+    border-radius:15px;
+}
+.txtbox{
+    padding-left: 12px;
+    width:250px;
+    border:1px solid #1a1a1a;
+    border-radius: 15px;
+}
+#posalji{
+    cursor: pointer;
+    width:45%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    color:#edf0f1;
+    font-size: 16px;
+}
+#ponisti{
+    cursor: pointer;
+    width:45%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    color:#edf0f1;
+    font-size: 16px
+}
+/*o nama*/
+#autor{
+    margin:80px auto;
+}
+#autor h1{
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 50px;
+}
+#opis{
+    width: 900px;
+    height: 400px;
+    border:1px solid #1a1a1a;
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    color:#edf0f1;
+}
+#opis img{
+    width: 420px;;
+    height:420px;
+    float: left;
+    padding: 40px 30px;
+}
+#opisDesno{
+    text-align: center;
+    float:right;
+    padding:40px 30px ;
+}
+#opisDesno a{
+    color:#FF8C00;
+}
+#sajt{
+    margin:80px auto;
+}
+#sajt h1{
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 50px;
+}
+#opisSajt{
+    background-color:#1a1a1a ;
+    color:#edf0f1;
+    border-radius: 15px;
+    padding: 40px 30px;
+    width: 900px;
+    height: 250px;
+    text-align: center;
+    border:1px solid #1a1a1a;
+}
+/*media queries*/
+@media screen and (max-width: 1100px){
+    .proizvod{
+         margin-left: 55px;
+         float:left;
+        width:40%;
+}
+#odeca{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    visibility: hidden;
+}
+#bars{
+    visibility:visible;
+    float:right;
+}
+#search{
+    width:300px;
+}
+#autor{
+    width:500px;
+    margin:0px;
+}
+#opis img{
+    width: 360px;;
+    height:360px;
+    float: left;
+    padding: 40px 30px;}
+#sajt{
+    width:500px;
+    margin:0px;
+
+}
+
+@media screen and (max-width: 700px){
+    .proizvod{
+         margin-left: 55px;
+         float:left;
+        width:100%;
+}
+#odeca{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    visibility: hidden;
+}
+#bars{
+    visibility:visible;
+    float:right;
+}
+#search{
+    width:150px;
+}
+#autor{
+    width:40%;
+    margin:0px;
+}
+#opis img{
+    width: 300px;;
+    height:300px;
+    float: left;
+    padding: 40px 30px;
+}
+#sajt{
+    width:250px;
+    margin:0px;
+}

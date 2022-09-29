@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>Obaveštenja</title>
+    <link>http://wwww.proba.com/index.html</link>
+    <description>Najnovije vesti</description>
+    <copyright>Copyright 2019, naitike.rs</copyright>
+    <language>sr</language>
+    <category>Patike</category>
+    <pubDate>Mon, 2 Dec 2019</pubDate>
+    <docs>http://blogs.law.hardvrd.edu/tech/rss</docs>
+    <ttl>15</ttl>
+
+
+<item>
+    <title>Obaveštenje 1</title>
+    <link>index.html/vest1</link>
+    <description>Od sada Yeezy patike u prodaji!</description>
+</item>
+<item>
+    <title>Obaveštenje 2</title>
+    <link>index.html/vest2</link>
+    <description>Uskoro otvaramo radnju u centru grada!</description>
+</item>
+</channel>
+</rss>
